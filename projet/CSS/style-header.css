@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.header .center-header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo-1{
+    width: 130px;
+    /* height: 42px; */
+}
+.logo-quali{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.student-photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: solid 1px #6b6e77;
+    cursor: pointer;
+    transition: all 0.20s;
+}
+
+.student-photo:hover, .icon-profile:hover{
+    transform: scale(0.9);
+}
+
+.icon-qr:hover, .icon-shutdown:hover{
+    color: #6b6e77;
+    font-weight: bold;
+}
+
+.text-photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text .text{
+    color: #46484D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container-text h1{
+    color: #46484d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.icon-qr, .icon-shutdown{
+    color: #005734;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.20s;
+}
+
+.icon-profile{
+    color: #46484D;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.20s;
+}
+
+.logo-2{
+    width: 95px;
+    height: 30px;
+}
+
+.logo-pronote{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.pe{
+    background-color: #46484D;
+    /* margin-top: 200px; */
+    height: 50px;
+}
