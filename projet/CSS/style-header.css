@@ -106,13 +106,52 @@
     height: 100%;
 }
 
+/* ----------------------------------------------------------------------- */
 
-
-
-
-
-.pe{
+.header-list{
     background-color: #46484D;
-    /* margin-top: 200px; */
+    display: flex;
+    justify-content: space-between;
     height: 50px;
+    align-items: center;
+    padding-right: 15px;
 }
+
+.header-list .menu-list{
+    display: flex;
+}
+
+.menu-list .list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.home-icon{
+    color: #46484D;
+    padding: 8px 10px 10px;
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.item-list{
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.header-list-icons{
+    display: flex;
+    gap: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+
+
